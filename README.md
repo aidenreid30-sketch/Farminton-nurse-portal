@@ -11,7 +11,7 @@ It has no packages to install. It runs on Vercel, with Upstash Redis to save dat
 
 ## Put it on Vercel (about 10 minutes)
 
-1. **Upload the code to GitHub.** Make a new **private** ressssssspository and upload everything in this folder **except `.env` and `data/`**. (`.gitignore` skips those with git, but not if you drag and drop files on github.com.)
+1. **Upload the code to GitHub.** Make a new **private** repository and upload everything in this folder **except `.env` and `data/`**. (`.gitignore` skips those with git, but not if you drag and drop files on github.com.)
    - With the GitHub CLI: `gh repo create nurse-status-board --private --source . --push`
 2. **Create the Vercel project.** Go to **Add New → Project**, import the repository, set Framework Preset to **Other**, and click **Deploy**. The first deploy shows a "Setup needed" page; that's expected.
 3. **Add the database.** In the project, open **Storage → Create Database → Upstash (Redis)**, use the free plan, and connect it to this project. Vercel adds the connection settings for you.
