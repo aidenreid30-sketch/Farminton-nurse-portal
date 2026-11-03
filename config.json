@@ -1,0 +1,15 @@
+{
+  "schoolName": "Farmington Public Schools",
+  "title": "School Nurse",
+  "emergencyNote": "Medical emergency? Call the front office at ext. 100, or dial 911.",
+  "contactEmail": "awing@farmcards.org",
+  "statuses": [
+    { "key": "in",    "label": "In the Health Office",                   "color": "green", "icon": "cross" },
+    { "key": "lunch", "label": "At Lunch",                               "color": "amber", "icon": "lunch" },
+    { "key": "away",  "label": "Away from the Office (in the building)", "color": "amber", "icon": "walk" },
+    { "key": "out",   "label": "Out of the Building",                    "color": "red",   "icon": "bus" },
+    { "key": "gone",  "label": "Gone for the Day",                       "color": "gray",  "icon": "moon" }
+  ],
+  "cooldownSeconds": 5,
+  "dailyReset": { "status": "gone", "time": "16:30" }
+}

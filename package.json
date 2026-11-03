@@ -1,0 +1,12 @@
+{
+  "name": "nurse-status-board",
+  "private": true,
+  "description": "School nurse status board with a single nurse sign-in. No dependencies.",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
